@@ -45,7 +45,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             https://developer.apple.com/documentation/foundation/nsstring/1409420-boolvalue?preferredLanguage=occ
         -->
         <config-file target="*-Info.plist" parent="ENABLE_USER_SCRIPT_SANDBOXING">
-             <string>"NO"</string>
+             <string>NO</string>
         </config-file>
         <config-file target="*-Info.plist" parent="FIREBASE_ANALYTICS_COLLECTION_ENABLED">
             <string>$ANALYTICS_COLLECTION_ENABLED</string>
